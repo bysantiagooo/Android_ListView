@@ -8,6 +8,7 @@
         android:id="@+id/imagen"
         android:layout_width="110dp"
         android:layout_height="80dp"
+        android:contentDescription="@string/todo"
         android:scaleType="fitXY"
         android:src="@drawable/ic_launcher_foreground" />
 
@@ -21,14 +22,16 @@
             android:id="@+id/textotitulo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Título"
-            android:textStyle="bold" />
+            android:text="@string/titulo"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
 
         <TextView
             android:id="@+id/textodatos"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Datos" />
+            android:text="@string/datos"
+            android:textColor="@color/white"/>
     </LinearLayout>
 
     <LinearLayout
